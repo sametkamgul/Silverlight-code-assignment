@@ -1,0 +1,37 @@
+
+.back-button {
+    text-align: left;
+    margin: 10px;
+}
+
+.technology, .pages {
+    font-size: 24px;
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pages {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchUrl {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div {
+    display: block;
+}
+
+#product-title {
+    font-size: 48px;
+    font-weight: bold;
+}

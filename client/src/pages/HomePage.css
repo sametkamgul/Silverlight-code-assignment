@@ -1,0 +1,102 @@
+.navigation-button {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(88, 102, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+.analyze-button {
+    width: 400px;
+    color: white;
+    background-color: rgb(88, 102, 255);
+    font-size: 24px;
+    height: 50px;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 392px;
+    border-radius: 2px;
+    font-size: 24px;
+    height: 50px;
+    margin: 2px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.App {
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: left;
+}
+
+.error-message {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+}
+
+.analyze {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    background-color: rgb(222, 222, 222);
+    margin: 5px;
+}
+
+.left {
+    text-align: start;
+    padding: 25px;
+}
+
+.right {
+    text-align: end;
+    padding: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.pagination {
+    width: 75%;
+}
+
+.navigation {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.pagination > p {
+    text-align: left;
+    margin-left: 20px;
+}
+.error-container {
+    height: 90px;
+}
+
+.analyze-cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.targets {
+    height: 250px;
+}
