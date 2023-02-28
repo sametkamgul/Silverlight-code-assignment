@@ -63,9 +63,26 @@ http 404: resource are not found: empty json would be returned
 -   regex check for url on both backend and frontend
 -   data is stored on localstorage
 
+## screenshots
+- landing page url check
+![landing page url check](screenshots/Screenshot-0.png)
+
+- landing page
+![landing page](screenshots/Screenshot-1.png)
+
+- analyzing targets
+![analyzing target](screenshots/Screenshot-3.png)
+
+- analyzed targets
+![analyzed targets](screenshots/Screenshot-2.png)
+
+- detail page
+![detail page](screenshots/Screenshot-4.png)
+
 ## TODO
 
 -   frontend error showing in the component itself(Analyzing... and View More section) for cases like: fetch is sent but no response(timeout, server issues)
 -   multiple url request at the same time
 -   more test coverage
 -   maybe current components should be divided to more sub components?
+
